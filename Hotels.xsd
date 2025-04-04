@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema 
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
 
-  <!-- The root element: <Hotels> -->
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <!-- Multiple <Hotel> entries allowed -->
+        <!-- Allow multiple Hotel elements -->
         <xs:element name="Hotel" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
@@ -15,6 +13,8 @@
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
+                    <!-- If "Number" is required by your assignment, add it here: -->
+                    <xs:element name="Number" type="xs:string" minOccurs="0"/>
                     <xs:element name="Street" type="xs:string"/>
                     <xs:element name="City" type="xs:string"/>
                     <xs:element name="State" type="xs:string"/>
@@ -22,10 +22,11 @@
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
-              <!-- "Phone" can appear multiple times -->
+              <!-- One or more Phone elements -->
               <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
-              <xs:element name="Rating" type="xs:float"/>
-              <xs:element name="Rooms" type="xs:int"/>
+              <!-- Rating might be optional, so minOccurs="0" -->
+              <xs:element name="Rating" type="xs:float" minOccurs="0"/>
+              <xs:element name="Rooms" type="xs:int" minOccurs="0"/>
             </xs:sequence>
             <!-- Required attribute -->
             <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
@@ -34,5 +35,4 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
 </xs:schema>
