@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
-
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
@@ -20,19 +19,11 @@
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
-
-              <!-- Multiple Phone elements -->
               <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
-
-              <!-- Rating can be optional, so minOccurs="0" -->
               <xs:element name="Rating" type="xs:float" minOccurs="0"/>
-
-              <!-- Rooms element that was missing -->
-              <xs:element name="Rooms" type="xs:int" minOccurs="0"/>
+              <xs:element name="Rooms" type="xs:int"/>
             </xs:sequence>
-
-            <!-- Required attribute for each Hotel -->
-            <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
+            <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
