@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
-  <Hotel NearstAirport="Sky Harbor">
+  <Hotel NearestAirport="Sky Harbor">
     <Name>Westin</Name>
     <Address>
       <Number>11</Number>
@@ -15,7 +15,7 @@
     <Rooms>150</Rooms>
   </Hotel>
 
-  <Hotel NearstAirport="JFK">
+  <Hotel NearestAirport="JFK">
     <Name>Hilton</Name>
     <Address>
       <Number>22</Number>
@@ -30,7 +30,7 @@
     <Rooms>300</Rooms>
   </Hotel>
 
-  <Hotel NearstAirport="ORD">
+  <Hotel NearestAirport="ORD">
     <Name>Marriott</Name>
     <Address>
       <Number>33</Number>
@@ -44,7 +44,7 @@
     <Rooms>120</Rooms>
   </Hotel>
 
-  <Hotel NearstAirport="LAX">
+  <Hotel NearestAirport="LAX">
     <Name>Sheraton</Name>
     <Address>
       <Number>44</Number>
@@ -58,7 +58,7 @@
     <Rooms>200</Rooms>
   </Hotel>
 
-  <Hotel NearstAirport="ATL">
+  <Hotel NearestAirport="ATL">
     <Name>Hyatt Regency</Name>
     <Address>
       <Number>55</Number>
@@ -72,7 +72,7 @@
     <Rooms>180</Rooms>
   </Hotel>
 
-  <Hotel NearstAirport="DFW">
+  <Hotel NearestAirport="DFW">
     <Name>InterContinental</Name>
     <Address>
       <Number>66</Number>
@@ -86,7 +86,7 @@
     <Rooms>250</Rooms>
   </Hotel>
 
-  <Hotel NearstAirport="SEA">
+  <Hotel NearestAirport="SEA">
     <Name>Four Seasons</Name>
     <Address>
       <Number>77</Number>
@@ -100,7 +100,7 @@
     <Rooms>220</Rooms>
   </Hotel>
 
-  <Hotel NearstAirport="MIA">
+  <Hotel NearestAirport="MIA">
     <Name>Ritz-Carlton</Name>
     <Address>
       <Number>88</Number>
@@ -114,7 +114,7 @@
     <Rooms>170</Rooms>
   </Hotel>
 
-  <Hotel NearstAirport="BOS">
+  <Hotel NearestAirport="BOS">
     <Name>Embassy Suites</Name>
     <Address>
       <Number>99</Number>
@@ -128,7 +128,7 @@
     <Rooms>190</Rooms>
   </Hotel>
 
-  <Hotel NearstAirport="PHX">
+  <Hotel NearestAirport="PHX">
     <Name>Best Western</Name>
     <Address>
       <Number>100</Number>
