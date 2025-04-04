@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
-  <!-- Missing NearestAirport attribute => Error -->
+  <!-- Missing NearestAirport attribute -->
   <Hotel>
     <Name>Should Fail Hotel</Name>
     <Address>
@@ -13,6 +13,4 @@
     <Rating>3.0</Rating>
     <Rooms>50</Rooms>
   </Hotel>
-
-  <!-- Add more deliberate errors as required by your instructions -->
 </Hotels>
