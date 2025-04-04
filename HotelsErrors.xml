@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+  <!-- Missing NearestAirport attribute -->
+  <Hotel>
+    <Name>Should Fail Hotel</Name>
+    <Address>
+      <Street>999 Unknown St.</Street>
+      <City>Nowhere</City>
+      <State>ZZ</State>
+      <Zip>00000</Zip>
+    </Address>
+    <Phone>000-000-0000</Phone>
+    <Rating>3.0</Rating>
+    <Rooms>50</Rooms>
+  </Hotel>
+</Hotels>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+  <Hotel NearestAirport="Sky Harbor">
+    <Name>Desert Oasis</Name>
+    <Address>
+      <Street>123 S. 7th St.</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+    <Phone>602-111-2222</Phone>
+    <Phone>602-333-4444</Phone>
+    <Rating>4.2</Rating>
+    <Rooms>150</Rooms>
+  </Hotel>
+
+  <Hotel NearestAirport="LAX">
+    <Name>Beachfront Hotel</Name>
+    <Address>
+      <Street>789 Ocean Blvd</Street>
+      <City>Santa Monica</City>
+      <State>CA</State>
+      <Zip>90401</Zip>
+    </Address>
+    <Phone>310-111-2222</Phone>
+    <Phone>310-333-4444</Phone>
+    <Rating>4.5</Rating>
+    <Rooms>200</Rooms>
+  </Hotel>
+
+  <!-- Add more <Hotel> entries (up to 10 or more) as required -->
+</Hotels>
