@@ -12,7 +12,9 @@
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
     <Rating>4.2</Rating>
+    <Rooms>150</Rooms>
   </Hotel>
+
   <Hotel NearestAirport="JFK">
     <Name>Hilton</Name>
     <Address>
@@ -24,8 +26,10 @@
     </Address>
     <Phone>212-555-1234</Phone>
     <Phone>212-555-5678</Phone>
-    <!-- No Rating provided -->
+    <Rating>4.0</Rating>
+    <Rooms>300</Rooms>
   </Hotel>
+
   <Hotel NearestAirport="ORD">
     <Name>Marriott</Name>
     <Address>
@@ -37,6 +41,105 @@
     </Address>
     <Phone>312-555-9876</Phone>
     <Rating>3.9</Rating>
+    <Rooms>120</Rooms>
   </Hotel>
-  <!-- Add additional hotel entries here to meet the minimum requirement -->
+
+  <Hotel NearestAirport="LAX">
+    <Name>Sheraton</Name>
+    <Address>
+      <Number>44</Number>
+      <Street>Sunset Blvd</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>90028</Zip>
+    </Address>
+    <Phone>323-555-1111</Phone>
+    <Rating>4.3</Rating>
+    <Rooms>200</Rooms>
+  </Hotel>
+
+  <Hotel NearestAirport="ATL">
+    <Name>Hyatt Regency</Name>
+    <Address>
+      <Number>55</Number>
+      <Street>Peachtree St</Street>
+      <City>Atlanta</City>
+      <State>GA</State>
+      <Zip>30303</Zip>
+    </Address>
+    <Phone>404-555-2222</Phone>
+    <Rating>4.1</Rating>
+    <Rooms>180</Rooms>
+  </Hotel>
+
+  <Hotel NearestAirport="DFW">
+    <Name>InterContinental</Name>
+    <Address>
+      <Number>66</Number>
+      <Street>Main St</Street>
+      <City>Dallas</City>
+      <State>TX</State>
+      <Zip>75201</Zip>
+    </Address>
+    <Phone>214-555-3333</Phone>
+    <Rating>4.0</Rating>
+    <Rooms>250</Rooms>
+  </Hotel>
+
+  <Hotel NearestAirport="SEA">
+    <Name>Four Seasons</Name>
+    <Address>
+      <Number>77</Number>
+      <Street>Columbia St</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98101</Zip>
+    </Address>
+    <Phone>206-555-4444</Phone>
+    <Rating>4.5</Rating>
+    <Rooms>220</Rooms>
+  </Hotel>
+
+  <Hotel NearestAirport="MIA">
+    <Name>Ritz-Carlton</Name>
+    <Address>
+      <Number>88</Number>
+      <Street>Ocean Dr</Street>
+      <City>Miami</City>
+      <State>FL</State>
+      <Zip>33139</Zip>
+    </Address>
+    <Phone>305-555-5555</Phone>
+    <Rating>4.4</Rating>
+    <Rooms>170</Rooms>
+  </Hotel>
+
+  <Hotel NearestAirport="BOS">
+    <Name>Embassy Suites</Name>
+    <Address>
+      <Number>99</Number>
+      <Street>Atlantic Ave</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <Zip>02110</Zip>
+    </Address>
+    <Phone>617-555-6666</Phone>
+    <Rating>3.8</Rating>
+    <Rooms>190</Rooms>
+  </Hotel>
+
+  <Hotel NearestAirport="PHX">
+    <Name>Best Western</Name>
+    <Address>
+      <Number>100</Number>
+      <Street>Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+    <Phone>602-555-7777</Phone>
+    <Rating>3.7</Rating>
+    <Rooms>210</Rooms>
+  </Hotel>
 </Hotels>
+
