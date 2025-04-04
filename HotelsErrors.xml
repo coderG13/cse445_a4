@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel> <!-- 1) Root element is "Hotel" instead of "Hotels" -->
-  <Hotel> <!-- 2) Missing required attribute "NearestAirport" -->
-    <Name>Faulty Hotel</Name>
+<Hotels>
+  <!-- Missing NearestAirport attribute => Error -->
+  <Hotel>
+    <Name>Should Fail Hotel</Name>
     <Address>
-      <Number>99</Number>
-      <!-- 4) Missing <Street> to break XSD validation -->
-      <City>ErrorCity</City>
-      <State>XX</State>
+      <Street>999 Unknown St.</Street>
+      <City>Nowhere</City>
+      <State>ZZ</State>
       <Zip>00000</Zip>
     </Address>
-    <!-- 3) Missing <Phone> entirely (XSD requires at least one) -->
-    <Rating>1.0</Rating>
-    <!-- 5) Two <Name> elements -->
-    <Name>Duplicate Name</Name>
+    <Phone>000-000-0000</Phone>
+    <Rating>3.0</Rating>
+    <Rooms>50</Rooms>
   </Hotel>
-</Hotel>
+
+  <!-- Add more deliberate errors as required by your instructions -->
+</Hotels>
