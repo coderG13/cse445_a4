@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
+  <!-- Hotel #1 (has optional attribute + rating) -->
   <Hotel NearestAirport="Sky Harbor" OptionalInfo="Luxury">
     <Name>Westin</Name>
     <Address>
@@ -15,6 +16,7 @@
     <Rooms>150</Rooms>
   </Hotel>
 
+  <!-- Hotel #2 (no optional attribute, includes rating) -->
   <Hotel NearestAirport="JFK">
     <Name>Hilton</Name>
     <Address>
@@ -30,7 +32,8 @@
     <Rooms>300</Rooms>
   </Hotel>
 
-  <Hotel NearestAirport="ORD">
+  <!-- Hotel #3 (has optional attribute + rating) -->
+  <Hotel NearestAirport="ORD" OptionalInfo="Business">
     <Name>Marriott</Name>
     <Address>
       <Number>33</Number>
@@ -44,6 +47,7 @@
     <Rooms>120</Rooms>
   </Hotel>
 
+  <!-- Hotel #4 (no optional attribute, includes rating) -->
   <Hotel NearestAirport="LAX">
     <Name>Sheraton</Name>
     <Address>
@@ -58,7 +62,8 @@
     <Rooms>200</Rooms>
   </Hotel>
 
-  <Hotel NearestAirport="ATL" OptionalInfo="Business">
+  <!-- Hotel #5 (has optional attribute, NO rating to test optional rating) -->
+  <Hotel NearestAirport="ATL" OptionalInfo="Conference">
     <Name>Hyatt Regency</Name>
     <Address>
       <Number>55</Number>
@@ -68,10 +73,11 @@
       <Zip>30303</Zip>
     </Address>
     <Phone>404-555-2222</Phone>
-    <Rating>4.1</Rating>
+    <!-- No <Rating> here to demonstrate optional rating -->
     <Rooms>180</Rooms>
   </Hotel>
 
+  <!-- Hotel #6 -->
   <Hotel NearestAirport="DFW">
     <Name>InterContinental</Name>
     <Address>
@@ -86,6 +92,7 @@
     <Rooms>250</Rooms>
   </Hotel>
 
+  <!-- Hotel #7 -->
   <Hotel NearestAirport="SEA">
     <Name>Four Seasons</Name>
     <Address>
@@ -100,6 +107,7 @@
     <Rooms>220</Rooms>
   </Hotel>
 
+  <!-- Hotel #8 -->
   <Hotel NearestAirport="MIA">
     <Name>Ritz-Carlton</Name>
     <Address>
@@ -114,6 +122,7 @@
     <Rooms>170</Rooms>
   </Hotel>
 
+  <!-- Hotel #9 -->
   <Hotel NearestAirport="BOS" OptionalInfo="Family">
     <Name>Embassy Suites</Name>
     <Address>
@@ -128,6 +137,7 @@
     <Rooms>190</Rooms>
   </Hotel>
 
+  <!-- Hotel #10 -->
   <Hotel NearestAirport="PHX">
     <Name>Best Western</Name>
     <Address>
