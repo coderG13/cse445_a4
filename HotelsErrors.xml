@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel>  <!-- Error: Root element should be "Hotels" -->
-  <Hotel>  <!-- Error: Nested Hotel with missing required NearestAirport attribute -->
+<Hotel> <!-- 1) Root element is "Hotel" instead of "Hotels" -->
+  <Hotel> <!-- 2) Missing required attribute "NearestAirport" -->
     <Name>Faulty Hotel</Name>
     <Address>
       <Number>99</Number>
-      <Street>Broken St</Street>
+      <!-- 4) Missing <Street> to break XSD validation -->
       <City>ErrorCity</City>
       <State>XX</State>
       <Zip>00000</Zip>
-    <!-- Missing closing tag for Address -->
-    <Phone>000-000-0000</Phone>
+    </Address>
+    <!-- 3) Missing <Phone> entirely (XSD requires at least one) -->
     <Rating>1.0</Rating>
-    <Name>Duplicate Name</Name>  <!-- Error: Duplicate Name -->
+    <!-- 5) Two <Name> elements -->
+    <Name>Duplicate Name</Name>
   </Hotel>
 </Hotel>
-
