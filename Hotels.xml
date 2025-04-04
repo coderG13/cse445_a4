@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
-  <Hotel NearestAirport="Sky Harbor">
+  <Hotel NearestAirport="Sky Harbor" OptionalInfo="Luxury">
     <Name>Westin</Name>
     <Address>
       <Number>11</Number>
@@ -58,7 +58,7 @@
     <Rooms>200</Rooms>
   </Hotel>
 
-  <Hotel NearestAirport="ATL">
+  <Hotel NearestAirport="ATL" OptionalInfo="Business">
     <Name>Hyatt Regency</Name>
     <Address>
       <Number>55</Number>
@@ -114,7 +114,7 @@
     <Rooms>170</Rooms>
   </Hotel>
 
-  <Hotel NearestAirport="BOS">
+  <Hotel NearestAirport="BOS" OptionalInfo="Family">
     <Name>Embassy Suites</Name>
     <Address>
       <Number>99</Number>
