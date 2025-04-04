@@ -3,6 +3,8 @@
   <Hotel NearestAirport="Sky Harbor">
     <Name>Desert Oasis</Name>
     <Address>
+      <!-- If your XSD includes <Number>, put it here -->
+      <Number>101</Number>
       <Street>123 S. 7th St.</Street>
       <City>Phoenix</City>
       <State>AZ</State>
@@ -17,7 +19,8 @@
   <Hotel NearestAirport="LAX">
     <Name>Beachfront Hotel</Name>
     <Address>
-      <Street>789 Ocean Blvd</Street>
+      <Number>789</Number>
+      <Street>Ocean Blvd</Street>
       <City>Santa Monica</City>
       <State>CA</State>
       <Zip>90401</Zip>
@@ -28,5 +31,5 @@
     <Rooms>200</Rooms>
   </Hotel>
 
-  <!-- Add more <Hotel> entries (up to 10 or more) as required -->
+  <!-- Add 8+ more hotels to meet the assignment's "at least 10" requirement -->
 </Hotels>
