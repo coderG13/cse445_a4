@@ -32,7 +32,7 @@
             </xs:sequence>
 
             <!-- Required attribute for each Hotel -->
-            <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+            <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
