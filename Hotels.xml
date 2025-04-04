@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
   <Hotel NearestAirport="Sky Harbor">
-    <Name>Desert Oasis</Name>
+    <Name>Westin</Name>
     <Address>
-      <!-- If your XSD includes <Number>, put it here -->
-      <Number>101</Number>
-      <Street>123 S. 7th St.</Street>
-      <City>Phoenix</City>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85004</Zip>
+      <Zip>85281</Zip>
     </Address>
-    <Phone>602-111-2222</Phone>
-    <Phone>602-333-4444</Phone>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
     <Rating>4.2</Rating>
-    <Rooms>150</Rooms>
   </Hotel>
-
-  <Hotel NearestAirport="LAX">
-    <Name>Beachfront Hotel</Name>
+  <Hotel NearestAirport="JFK">
+    <Name>Hilton</Name>
     <Address>
-      <Number>789</Number>
-      <Street>Ocean Blvd</Street>
-      <City>Santa Monica</City>
-      <State>CA</State>
-      <Zip>90401</Zip>
+      <Number>22</Number>
+      <Street>5th Ave</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10001</Zip>
     </Address>
-    <Phone>310-111-2222</Phone>
-    <Phone>310-333-4444</Phone>
-    <Rating>4.5</Rating>
-    <Rooms>200</Rooms>
+    <Phone>212-555-1234</Phone>
+    <Phone>212-555-5678</Phone>
+    <!-- No Rating provided -->
   </Hotel>
-
-  <!-- Add 8+ more hotels to meet the assignment's "at least 10" requirement -->
+  <Hotel NearestAirport="ORD">
+    <Name>Marriott</Name>
+    <Address>
+      <Number>33</Number>
+      <Street>Michigan Ave</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60601</Zip>
+    </Address>
+    <Phone>312-555-9876</Phone>
+    <Rating>3.9</Rating>
+  </Hotel>
+  <!-- Add additional hotel entries here to meet the minimum requirement -->
 </Hotels>
