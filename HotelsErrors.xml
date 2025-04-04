@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
-  <!-- Missing NearestAirport attribute => Error -->
-  <Hotel>
-    <Name>Should Fail Hotel</Name>
+<Hotel>  <!-- Error: Root element should be "Hotels" -->
+  <Hotel>  <!-- Error: Nested Hotel with missing required NearestAirport attribute -->
+    <Name>Faulty Hotel</Name>
     <Address>
-      <Street>999 Unknown St.</Street>
-      <City>Nowhere</City>
-      <State>ZZ</State>
+      <Number>99</Number>
+      <Street>Broken St</Street>
+      <City>ErrorCity</City>
+      <State>XX</State>
       <Zip>00000</Zip>
-    </Address>
+    <!-- Missing closing tag for Address -->
     <Phone>000-000-0000</Phone>
-    <Rating>3.0</Rating>
-    <Rooms>50</Rooms>
+    <Rating>1.0</Rating>
+    <Name>Duplicate Name</Name>  <!-- Error: Duplicate Name -->
   </Hotel>
-
-  <!-- Add more deliberate errors as required by your instructions -->
-</Hotels>
+</Hotel>
