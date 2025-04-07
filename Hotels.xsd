@@ -23,9 +23,7 @@
               <xs:element name="Rating" type="xs:float" minOccurs="0"/>
               <xs:element name="Rooms" type="xs:int"/>
             </xs:sequence>
-            <!-- Required attribute -->
             <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
-            <!-- Optional attribute -->
             <xs:attribute name="OptionalInfo" type="xs:string" use="optional"/>
           </xs:complexType>
         </xs:element>
