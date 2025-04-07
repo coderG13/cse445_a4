@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
-  <!-- Hotel #1 (has optional attribute + rating) -->
+  <!-- Hotel #1 (optional + rating) -->
   <Hotel NearestAirport="Sky Harbor" OptionalInfo="Luxury">
     <Name>Westin</Name>
     <Address>
@@ -16,7 +16,7 @@
     <Rooms>150</Rooms>
   </Hotel>
 
-  <!-- Hotel #2 (no optional attribute, includes rating) -->
+  <!-- Hotel #2 (rating) -->
   <Hotel NearestAirport="JFK">
     <Name>Hilton</Name>
     <Address>
@@ -32,7 +32,7 @@
     <Rooms>300</Rooms>
   </Hotel>
 
-  <!-- Hotel #3 (has optional attribute + rating) -->
+  <!-- Hotel #3 (optional + rating) -->
   <Hotel NearestAirport="ORD" OptionalInfo="Business">
     <Name>Marriott</Name>
     <Address>
@@ -47,7 +47,7 @@
     <Rooms>120</Rooms>
   </Hotel>
 
-  <!-- Hotel #4 (no optional attribute, includes rating) -->
+  <!-- Hotel #4 (rating) -->
   <Hotel NearestAirport="LAX">
     <Name>Sheraton</Name>
     <Address>
@@ -62,7 +62,7 @@
     <Rooms>200</Rooms>
   </Hotel>
 
-  <!-- Hotel #5 (has optional attribute, NO rating to test optional rating) -->
+  <!-- Hotel #5 (optional) -->
   <Hotel NearestAirport="ATL" OptionalInfo="Conference">
     <Name>Hyatt Regency</Name>
     <Address>
@@ -73,7 +73,6 @@
       <Zip>30303</Zip>
     </Address>
     <Phone>404-555-2222</Phone>
-    <!-- Rating is omitted -->
     <Rooms>180</Rooms>
   </Hotel>
 
