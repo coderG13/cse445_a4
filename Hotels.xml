@@ -73,7 +73,7 @@
       <Zip>30303</Zip>
     </Address>
     <Phone>404-555-2222</Phone>
-    <!-- No <Rating> here -->
+    <!-- Rating is omitted -->
     <Rooms>180</Rooms>
   </Hotel>
 
